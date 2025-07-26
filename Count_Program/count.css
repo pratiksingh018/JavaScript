@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(29, 26, 26);
+}
+#container{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aqua;
+}
+#button{
+    text-align: center;
+}
+.myButton{
+    padding: 10px 15px;
+    font-size: 2em;
+    background-color: rgba(96, 145, 218, 0.849);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.23s;
+}
+.myButton:hover{
+    background-color: rgb(53, 50, 126);
+}
